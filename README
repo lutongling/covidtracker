@@ -1,0 +1,21 @@
+README:
+
+1. You are recommended to run this application program on Windows 10, using a Pycharm IDE.
+
+2. Tkinter is a Python built-in package but the import syntax is different in Python 2, so make sure you are under Python 3.
+
+3. pymysql module should be pre-installed for connecting the Database.
+   Using this website for reference: https://pypi.org/project/PyMySQL/
+
+4. There are no other modules that would be used. All the other imports are different python files for this project.
+
+5. Make sure covid_tracker.png is in this project package. It is the background picture for the login window.
+   (If it goes wrong, just comment the code in login.py line 21-24, and run again)
+
+6. ***IMPORTANT NOTICE:
+   To connect the database, you need to modify the code(below within the quotation mark) in db.py line 9.
+   In db.py at line 9:
+   you should put your own database user and password to user= "your_db_user" & password= "your_db_password"
+
+7. This is implemented in a Desktop machine so the size may seem a bit inappropriate in your machine.
+   But the video of my presentation for this project will show you the well fitted size on my Desktop.
